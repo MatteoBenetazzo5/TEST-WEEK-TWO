@@ -1,0 +1,169 @@
+/* STRUTTURA GENERALE */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #E9EDEE;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* HEADER */
+header {
+  background-color: #222F3F;
+  color: white;
+}
+
+.header-bar1 {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo-box img {
+  max-width: 150px;
+  height: auto;
+}
+
+.header-bar2 {
+  background-color: #364759;
+  padding: 10px 20px;
+}
+
+.header-bar2 nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-bar2 nav ul li {
+  color: white;
+  cursor: pointer;
+}
+
+.header-bar2 nav ul li:hover {
+  text-decoration: underline;
+}
+
+/* MAIN */
+.main-bar-orange {
+  background-color: #F76500;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+.main-bar-orange h5 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+
+main > div {
+  text-align: center;
+  margin: 20px auto;
+}
+
+main h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+
+
+}
+
+main h5 {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+.main-bar-white {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+.main-bar-white h3 {
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+.shop-link, .shop-game, .shop-audio {
+  color: orange;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.title-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.shop-link {
+  margin-left: 8px;
+  font-size: small;
+}
+
+.title-game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop-game {
+  margin-left: 8px;
+  font-size: small; /* distanza dal titolo */
+}
+
+.title-audio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop-audio {
+  margin-left: 8px;
+  font-size: small; /* distanza dal titolo */
+}
+
+.shop-link:hover,
+.shop-game:hover,
+.shop-audio:hover {
+  color: darkblue;
+}
+
+.main-bar-white img {
+  width: 200px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+/* FOOTER */
+.footer-bar1 {
+  background-color: #364759;
+  text-align: center;
+  padding: 15px;
+}
+
+.back-to-top {
+  color: white;
+  text-decoration: none;
+}
+
+.back-to-top:hover {
+  text-decoration: underline;
+}
+
+.footer-bar2 {
+  background-color: #222F3F;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-bar2 img {
+  max-width: 150px;
+  height: auto;
+}
